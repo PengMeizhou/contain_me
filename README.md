@@ -23,9 +23,13 @@ Or install it yourself as:
 ## Usage
 
 ContainMe.in_pocket?(3, {1=>2, 3=>4})   -> true
+
 ContainMe.in_pocket?(2, {1=>2, 3=>4}    -> true
+
 ContainMe.in_pocket?(2, 1..4)           -> true   
+
 ContainMe.in_pocket?(443, 344323535345334598989545)   -> true  
+
 ContainMe.in_pocket?(234, 344323535345334598989545)   -> false  
 
 ## Development

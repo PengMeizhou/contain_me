@@ -1,0 +1,47 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/pengmz/work/self_learning/my_gems/contain_me/lib/contain_me.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        11,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        3,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/pengmz/work/self_learning/my_gems/contain_me/lib/contain_me/version.rb": [
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1577266177
+  }
+}

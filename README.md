@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/contain_me`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+To judge object is contained in the collection or not whatever the object data type.
 
 ## Installation
 
@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ContainMe.in_pocket?(3, {1=>2, 3=>4})   -> true
+ContainMe.in_pocket?(2, {1=>2, 3=>4}    -> true
+ContainMe.in_pocket?(2, 1..4)           -> true   
+ContainMe.in_pocket?(443, 344323535345334598989545)   -> true  
+ContainMe.in_pocket?(234, 344323535345334598989545)   -> false  
 
 ## Development
 

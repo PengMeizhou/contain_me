@@ -3,7 +3,11 @@ RSpec.describe ContainMe do
     expect(ContainMe::VERSION).not_to be nil
   end
 
-  it "Test ContainMe for Hash" do
+  it "Test ContainMe for Hash Key" do
+    expect(ContainMe.in_pocket?(3, {1=>2, 3=>4})).to eq(true)
+  end
+
+  it "Test ContainMe for Hash value" do
     expect(ContainMe.in_pocket?(2, {1=>2, 3=>4})).to eq(true)
   end
 
